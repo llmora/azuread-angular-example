@@ -1,0 +1,33 @@
+<div class="container">
+  <div class="row">
+    <h2>Azure AD authentication and authorisation in Angular - example</h2>
+  </div>
+</div>
+
+<div class="container">
+
+  <br />
+
+  <div class="row">
+    <div class="col-sm-3">
+      <img id="microsoft_login" src="assets/microsoft_login.svg" (click)="azureLoginPopup()" />
+    </div>
+    <div class="col-sm-5">
+      <p><strong>Pop-up:</strong> Clicking the button to the left will open a pop-up to authenticate against the
+        Microsoft cloud, once authenticated the pop-up will close and the account information will be available to the
+        application (and shown below)</p>
+    </div>
+  </div>
+
+  <div class="row">
+    <h5>Result</h5>
+  </div>
+  <div class="row">
+    <div class="col-sm-8">
+      <div class="alert-secondary py-1 px-1" style="overflow-wrap: break-word;">
+        {{ message }}
+      </div>
+    </div>
+  </div>
+
+</div>
